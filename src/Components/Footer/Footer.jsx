@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer className="flex flex-col justify-center p-10 bg-blue-900 text-white mt-10">
-            <div className="flex gap-4 mx-auto mb-3" >
+            <div className="flex flex-col lg:flex-row gap-4 mx-auto mb-3" >
                 <Link href='/about' className="link link-hover">About Us</Link>
                 <Link href='/contact' className="link link-hover">Contact Us</Link>
                 <Link href='/serial' className="link link-hover">Confirm Serial</Link>

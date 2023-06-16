@@ -4,18 +4,18 @@ import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 
 const Nav = () => {
     return (
-        <nav className='flex justify-between mb-2 p-5 w-[90%] mx-auto rounded-l-xl rounded-r-xl bg-white font-semibold'>
+        <nav className='flex flex-col lg:flex-row justify-between mb-2 p-5 w-[90%] mx-auto rounded-l-xl rounded-r-xl bg-white font-semibold'>
             <div>
                 <ul>
-                    <li className='text-2xl'><Link href='/'>HealPoint</Link></li>
+                    <li className='text-2xl text-center'><Link href='/'>HealPoint</Link></li>
                 </ul>
             </div>
             <div>
-                <ul className='flex gap-6 items-center'>
+                <ul className='flex flex-col lg:flex-row gap-6 items-center'>
                     <li><Link href="/services">Services</Link> </li>
                     <li><Link href="/clinices">Clinices</Link></li>
                     <li><Link href="/treatments">Treatments</Link></li>
-                    <li className=' border-r-2 h-6 border-slate-200'></li>
+                    <li className='border-r-2 h-6 border-slate-200 hidden lg:block'></li>
                     <li>
                         <select className="select w-12 max-w-xs">
                             <option>En</option>
