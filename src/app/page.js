@@ -20,32 +20,7 @@ import ballon from '../../public/redBallon.png'
 
 function Home() {
   return (
-    <main className='bg-[#F7F6F2] font-serif'>
-      <nav className='flex justify-between mb-2 p-5 w-[90%] mx-auto rounded-l-xl rounded-r-xl bg-white font-semibold'>
-        <div>
-          <ul>
-            <li className='text-2xl'>HealPoint</li>
-          </ul>
-        </div>
-        <div>
-          <ul className='flex gap-6 items-center'>
-            <li><a href="">Services</a> </li>
-            <li><a href="">Clinices</a></li>
-            <li><a href="">Treatments</a></li>
-            <li className=' border-r-2 h-6 border-slate-200'></li>
-            <li>
-              <select className="select w-12 max-w-xs">
-                <option>En</option>
-                <option>Bn</option>
-              </select>
-            </li>
-            <li> <HiOutlineMenuAlt4 className='text-xl'></HiOutlineMenuAlt4> </li>
-            <li> <a href="" className='rounded-full border-2 border-black px-4 py-2 font-bold'> Need Help ?</a> </li>
-          </ul>
-        </div>
-      </nav>
-
-
+    <main>
       <div className='flex w-[90%] mx-auto mt-10 gap-20 relative'>
         <div className='w-[50%] space-y-6 '>
           <p className='uppercase border-2 border-stone-600 rounded-full px-3 py-1 inline-block font-bold'>Mental Health At 30'S</p>
@@ -111,7 +86,7 @@ function Home() {
           <button className='text-white px-3 py-1 border-2 border-white mt-5 rounded-full'>CARING IS ALWAYS FREE</button>
           <h2 className='text-5xl text-white'>We help you to <br /> <span className='text-yellow-400 border-b-2 border-orange-500'>grow confidence </span> <br />at any age</h2>
           <Image src={flower} alt='flower' className='w-28 absolute bottom-0 right-10'></Image>
-          <Image src={leaf} alt='leaf' className='absolute -left-6 w-20 bottom-24'></Image>
+          <Image src={leaf} alt='leaf' className='absolute -left-6 w-20 bottom-36'></Image>
         </div>
       </div>
     </main>
