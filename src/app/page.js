@@ -16,6 +16,7 @@ import green from '../../public/green.jpg'
 import girl2 from '../../public/girl2.jpg'
 import love2 from '../../public/love.png'
 import man2 from '../../public/man2.jpg'
+import ballon from '../../public/redBallon.png'
 
 function Home() {
   return (
@@ -45,11 +46,14 @@ function Home() {
       </nav>
 
 
-      <div className='flex w-[90%] mx-auto mt-10 gap-20'>
-        <div className='w-[50%] space-y-6'>
+      <div className='flex w-[90%] mx-auto mt-10 gap-20 relative'>
+        <div className='w-[50%] space-y-6 '>
           <p className='uppercase border-2 border-stone-600 rounded-full px-3 py-1 inline-block font-bold'>Mental Health At 30'S</p>
-          <h2 className='text-8xl'>Beat your <br /> <span className='border-b-4 border-orange-600'>anxierty</span> with <br />therapy</h2>
+          <h2 className='text-8xl'>Beat your <br /> anxierty with <br />therapy</h2>
+          <p className='border-4 rounded-md border-orange-600 -rotate-2 w-[60%] relative -top-32 left-0'></p>
           <p className='font-bold'>To live life to the fullest,we're <br /> countinuing to find ways.</p>
+
+          <Image src={ballon} alt='ballon' className='absolute bottom-20 left-96 w-32'></Image>
 
           <div className='flex gap-5 items-center'>
             <button className='bg-black text-white px-5 py-2 rounded-full flex items-center gap-1'>Get Help <FaAngleRight className='text-orange-500'></FaAngleRight></button>
@@ -83,14 +87,14 @@ function Home() {
           <Image src={man2} alt='man2' className='absolute w-40 h-40 right-10 top-24 rounded-lg'></Image>
           <Image src={love2} alt='love2' className='absolute w-10 right-44 rotate-45 top-32 rounded-full'></Image>
 
-          <div className='flex'>
-            <HiOutlineMenuAlt4 className='absolute rotate-180 right-1 top-16 w-12 h-8'></HiOutlineMenuAlt4>
-            < IoMdCheckmarkCircleOutline className='absolute rotate-180 right-1 top-16 w-12 h-8'></IoMdCheckmarkCircleOutline>
-
+          <div className='bg-amber-700 inline-block rounded-md p-1 absolute right-2 top-40'>
+            <div className='flex gap-2'>
+              <IoMdCheckmarkCircleOutline className='w-5 h-5 text-white'></IoMdCheckmarkCircleOutline>
+              <HiOutlineMenuAlt4 className='w-5 h-5 text-white'></HiOutlineMenuAlt4>
+            </div>
           </div>
 
-
-          <Image src={orange} alt='green' className='absolute w-6 right-28 top-12 rounded-full '></Image>
+          <Image src={orange} alt='green' className='absolute w-6 right-28 top-12 rounded-full'></Image>
 
         </div>
       </div>
