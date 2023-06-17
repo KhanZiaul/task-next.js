@@ -20,13 +20,13 @@ import ballon from '../../public/redBallon.png'
 
 function Home() {
   return (
-    <main>
+    <div>
       <div className='flex flex-col lg:flex-row lg:w-[90%] mx-auto mt-10 gap-20 relative'>
         <div className='lg:w-[50%] space-y-6 '>
-          <p className='uppercase border-2 border-stone-600 rounded-full px-3 py-1 inline-block font-bold'>Mental Health At 30'S</p>
+          <p className='uppercase border-2 border-stone-600 rounded-full px-3 py-1 inline-block font-bold'>Mental Health At 30&apos;S</p>
           <h2 className='text-8xl'>Beat your <br /> anxierty with <br />therapy</h2>
           <p className='border-4 rounded-md border-orange-600 -rotate-2 lg:w-[60%] relative -top-32 left-0'></p>
-          <p className='font-bold'>To live life to the fullest,we're <br /> countinuing to find ways.</p>
+          <p className='font-bold'>To live life to the fullest,we &apos; re <br /> countinuing to find ways.</p>
 
           <Image src={ballon} alt='ballon' className='static lg:absolute  bottom-20 left-96 w-32'></Image>
 
@@ -89,8 +89,8 @@ function Home() {
           <Image src={leaf} alt='leaf' className='static lg:absolute  -left-6 w-20 bottom-36'></Image>
         </div>
       </div>
-    </main>
+    </div>
   )
 }
 
-export default Home
+export default Home;

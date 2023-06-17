@@ -1,14 +1,15 @@
 import Link from 'next/link';
 import React from 'react';
 import { HiOutlineMenuAlt4 } from 'react-icons/hi';
+import { AiOutlineStar } from 'react-icons/ai';
+import './Nav.css'
 
 const Nav = () => {
     return (
-        <nav className='flex flex-col lg:flex-row justify-between mb-2 p-5 w-[90%] mx-auto rounded-l-xl rounded-r-xl bg-white font-semibold'>
-            <div>
-                <ul>
-                    <li className='text-2xl text-center'><Link href='/'>HealPoint</Link></li>
-                </ul>
+        <nav className='nav-head'>
+            <div className='nav-title'>
+                <AiOutlineStar className='nav-head-icon'></AiOutlineStar>
+                <Link href='/'><span>HealPoint</span> </Link>
             </div>
             <div>
                 <ul className='flex flex-col lg:flex-row gap-6 items-center'>

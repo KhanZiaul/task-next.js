@@ -1,0 +1,33 @@
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    border-radius: 12px;
+    background-color: white;
+    font-weight: 700;
+    flex-direction: column;
+}
+.nav-title{
+    font-size: 30px;
+    display: flex;
+    gap: 5px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.nav-head-icon{
+    background-color: #fa6e52;
+    border-radius:100%;
+    color: white;
+    padding:3px;
+}
+
+@media (min-width: 1024px) {
+    .nav-head {
+      flex-direction: row;
+    }
+  }
