@@ -25,7 +25,7 @@ const Nav = () => {
                         </select>
                     </li>
                     <li> <HiOutlineMenuAlt4 className='text-xl'></HiOutlineMenuAlt4> </li>
-                    <li> <Link href="/help" className='rounded-full border-2 border-black px-4 py-2 font-bold'> Need Help ?</Link> </li>
+                    <li> <Link href="/help" className='nav-help'> Need Help ?</Link> </li>
                 </ul>
             </div>
         </nav>
