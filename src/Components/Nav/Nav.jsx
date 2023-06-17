@@ -12,7 +12,7 @@ const Nav = () => {
                 <Link href='/'><span>HealPoint</span> </Link>
             </div>
             <div>
-                <ul className='flex flex-col lg:flex-row gap-6 items-center'>
+                <ul className='nav-links'>
                     <li><Link href="/services">Services</Link> </li>
                     <li><Link href="/clinices">Clinices</Link></li>
                     <li><Link href="/treatments">Treatments</Link></li>

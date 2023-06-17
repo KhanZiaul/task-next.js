@@ -19,6 +19,13 @@
     align-items: center;
 }
 
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
 .nav-head-icon{
     background-color: #fa6e52;
     border-radius:100%;
@@ -29,5 +36,8 @@
 @media (min-width: 1024px) {
     .nav-head {
       flex-direction: row;
+    }
+    .nav-links{
+        flex-direction: row;
     }
   }
